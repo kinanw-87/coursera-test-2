@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #09564f;
+}
+
+/* Header Section */
+
+#header-nav {
+  background-color: #efc550;
+  margin-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+  background-color: #a0c8b4de;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.navbar-brand h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px #1c765f;
+  color: #09564f;
+}
+
+.nav-link {
+  font-size: 17px;
+  color: #09564f;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #e9d99d;
+}
+
+.nav-item {
+  margin-right: 10px;
+  padding: 0 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background-color: gray;
+}
+
+/* Menu section */
+
+.menu h2 {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.food-name {
+  background-color: #552929;
+  padding: 10px 30px;
+  color: #bbb;
+}
+
+.food-name h3 {
+  text-align: center;
+  margin: 0 auto 15px;
+  width: 200px;
+  padding: 15px;
+  border: 2px solid;
+}
+
+.food-name p {
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .menu {
+    padding: 1rem 1.5rem !important;
+  }
+}
